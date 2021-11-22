@@ -1,2 +1,39 @@
-Condiciones de contorno
-	Base: D < , , 0 > // G < , , >
+Matlab: determinar las propiedades del material
+
+Catia:
+	Superficies-> lo del spline 3D está bien
+	También hay elementos verticales, no olviar
+	Importar por separado
+	Los 55 grados son con la base, no con la horizontal
+	
+Patran:
+	
+	Material:
+
+		Para los rigidizadores helicoidales usar los ejes de los elementos para orientar el laminado -> Al mallar los nervios los elementos irán orientados
+	
+
+	Mallado:
+		
+		Un elemento en la dirección transversal (porque no va a flectar)
+		
+		Cruces:
+		
+			Opciones: Dos superficies unidas // dos superficies partidas + elemento en el centro // cruces en vertical
+			Los cruces son una movida
+			Al intentar meter un cruce en el que se han hecho cortes el modelo va a dar error por fallo local
+			Es más sencillo juntar los elementos que comparten espacio (grupos) -> A la hora de hacer la equivalencia se puede establecer el radio con el cual se determina que los nodos son iguales
+			Poner los elementos perpendiculares a la superficie (es más fácil o algo así) -> Para representar el pandeo hay que unir el nodo del cruce con los anteriores
+			
+	Condiciones de contorno:
+
+		Base: Para todos los puntos D < , , 0 > // G < , , >
+		      Para un punto D < 0, 0, 0> // G < , , >
+		      Para un punto diametralmente opuesto sobre el eje X D < , 0 , 0> // G < , , >
+		      * Poniendo restricciones de desplazamiento en puntos simétricos se puede restringir el giro 
+		      
+		Top: La carga se añade con un RBE3
+		
+			El RBE2 reparte la carga entre los puntos pero deja que bajen como quieran manteniendo la fuerza equidistribuida
+			El RBE3 aplica la carga sobre un conjunto de puntos que bajan a la vez
+		
