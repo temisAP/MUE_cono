@@ -1,6 +1,6 @@
 Matlab: determinar las propiedades del material Hexcel® HexPly® 8552 Epoxy Matrix, IM7 Fiber
 	Multiplicar los módulos y la resistencia por 6.894759999639e9 y las resistencias por 6.894759999639e6
-	
+	Una pulgada son 2.54e-2 m 
 
 Catia:
 	Superficies-> lo del spline 3D está bien
