@@ -1,4 +1,4 @@
-$ MSC.Nastran input file created on November  29, 2021 at 23:53:35 by
+$ MSC.Nastran input file created on November  30, 2021 at 00:54:50 by
 $ Patran 2021.1  (Student Edition)
 $ Direct Text Input for Nastran System Cell Section
 $ Direct Text Input for File Management Section
@@ -69,6 +69,7 @@ PCOMP    1                       .089    HILL
          1       .183    0.      YES     1       .183    0.      YES
          1       .183    0.      YES     1       .183    0.      YES
          1       .183    0.      YES     1       .183    0.      YES
+         1       .183    0.      YES
 $ Pset: "Shell_anillos_exteriores" will be imported as: "pcomp.1"
 CQUAD4   1       1       1       2       17      16
 CQUAD4   2       1       2       3       18      17
@@ -355,7 +356,7 @@ PCOMP    2                       .089    HILL
          2       .183    90.     YES     2       .183    90.     YES
          2       .183    90.     YES     2       .183    90.     YES
          2       .183    90.     YES     2       .183    90.     YES
-         2       .183    90.     YES     2       .183    90.     YES
+         2       .183    90.     YES
 $ Pset: "Shell_helicoidales" will be imported as: "pcomp.2"
 CQUAD4   697     2       56      1416    1418    5756
 CQUAD4   698     2       5756    1418    1420    5754
@@ -1646,6 +1647,7 @@ PCOMP    3                       .089    HILL
          2       .183    90.     YES     2       .183    90.     YES
          2       .183    90.     YES     2       .183    90.     YES
          2       .183    90.     YES     2       .183    90.     YES
+         2       .183    90.     YES
 $ Pset: "Shell_verticales" will be imported as: "pcomp.3"
 CQUAD4   1977    3       4007    4008    4010    4009
 CQUAD4   1978    3       4009    4010    4012    4011
@@ -2807,7 +2809,7 @@ PCOMP    4                       .089    HILL
          1       .183    0.      YES     1       .183    0.      YES
          1       .183    0.      YES     1       .183    0.      YES
          1       .183    0.      YES     1       .183    0.      YES
-         1       .183    0.      YES     1       .183    0.      YES
+         1       .183    0.      YES
 $ Pset: "Shell_anillos_interiores" will be imported as: "pcomp.4"
 CQUAD4   278     4       564     565     599     598
 CQUAD4   279     4       565     566     600     599
@@ -3232,12 +3234,12 @@ $ Referenced Material Records
 $ Material Record : Anillos
 $ Description of Material : Date: 24-Nov-21           Time: 11:45:07
 MAT8*    1               158.489         8.9490004       .315611
-*        4.6490002       4.6490002       4.6490002       1.58
+*        4.6490002       4.6490002       4.6490002       .00158
                                  2.233   1.418   .051    .255    .089
 $ Material Record : Rigidizadores
 $ Description of Material : Date: 24-Nov-21           Time: 11:45:07
 MAT8*    2               140.93201       9.712           .356
-*        4.6499991       4.6499991       4.6499991       1.58
+*        4.6499991       4.6499991       4.6499991       .00158
                                  2.233   1.418   .051    .255    .089
 $ Multipoint Constraints of the Entire Model
 $ ID conflict : the PATRAN MPC ID was 1
@@ -15881,4 +15883,4 @@ BSURF    10      1977    1978    1979    1980    1981    1982    1983
 $ Nodal Forces of Load Set : Fuerza
 FORCE    1       563     0       15.     0.      0.      -1.
 $ Referenced Coordinate Frames
-ENDDATA 176af2e1
+ENDDATA 934dcb16
