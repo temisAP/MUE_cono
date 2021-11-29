@@ -38,3 +38,11 @@ Patran:
 
 			El RBE2 reparte la carga entre los puntos pero deja que bajen como quieran manteniendo la fuerza equidistribuida
 			El RBE3 aplica la carga sobre un conjunto de puntos que bajan a la vez
+			
+			
+			
+			 Node 1:4964 ->  Node 122:572 575:5061
+			 Node 574
+			 
+			Anillos rotar: Elm 312:322
+					Elm 492:457:-1 455:549:-1 (menos el 456)

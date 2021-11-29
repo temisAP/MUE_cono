@@ -1,0 +1,23 @@
+information summary of job:  ./cono
+version: MSC Nastran 2021.1.0, Built on Mar 10, 2021
+date:     Nov 28, 2021; Day Time: 18:00:49
+
+  subcase      inc  cycl  sepa cut     cycl   split   separ   cut  rmesh time step   total time  wall time   cpu time    max resp. type
+  /step #       #     #    #    #        #        #      #      #     #      of          of
+        1          |--of the inc--|-----------of the analysis-----------|  the inc      the job
+        0        0     0    0    0        0       0       0     0     0  0.0000E+00  0.0000E+00       3.00       1.61   0.0000E+00 disp
+        0        1     1   44    5       58       0      44     5     0  3.1250E-03  3.1250E-03     143.00     137.52   1.3174E+01 disp
+        0        2     1    5    0       65       0      49     5     0  3.1250E-03  6.2500E-03     164.00     158.09   2.5441E+01 disp
+        0        3     1    4    0       73       0      53     5     0  3.1250E-03  9.3750E-03     188.00     180.84  -3.4916E+01 disp
+        0        4     1    3    0       78       0      56     5     0  3.1250E-03  1.2500E-02     203.00     196.00  -4.5396E+01 disp
+        0        5     1    2    0       82       0      58     5     0  3.1250E-03  1.5625E-02     216.00     208.59  -5.4543E+01 disp
+        0        6     1    2    0       86       0      60     5     0  3.1250E-03  1.8750E-02     229.00     221.03  -6.1784E+01 disp
+        0        7     1    1    0       89       0      61     5     0  3.1250E-03  2.1875E-02     240.00     231.00  -6.5264E+01 disp
+        0        8     1    0    0       91       0      61     5     0  3.1250E-03  2.5000E-02     247.00     238.44  -7.9866E+01 disp
+ Job ends with exit number :       1
+            total wall time:        248.00
+            total cpu  time:        239.29
+
+            exit DEFINITION -----
+            = 0  job terminates normally
+            = 1  job terminates abnormally (check Fatal Error Message in F06)
