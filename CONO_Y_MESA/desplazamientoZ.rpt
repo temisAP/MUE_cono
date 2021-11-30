@@ -4,13 +4,13 @@
 
 
                        MSC.Patran 27.1.801631 Thu Mar 25 06:46:07 PDT 2021 - Analysis Code: MSC.Nastran 
-                                           Load Case: SC1:DEFAULT, A3:Static subcase 
+                                           Load Case: SC1:DEFAULT, A1:Static subcase 
                                    Result Displacements, Translational - Layer (NON-LAYERED) 
                                                       Entity: Node Vector
 
 
 -Entity ID--Z Component--
-     563       -0.473297
+     563       -1.738735
 
 
                                                       SUMMARY INFORMATION
@@ -18,6 +18,6 @@
 
                                                          Min/Max Values
     -Source ID--Entity ID--Z Component--
-Min:     1        563        -0.473297
-Max:     1        563        -0.473297
+Min:     1        563        -1.738735
+Max:     1        563        -1.738735
 
