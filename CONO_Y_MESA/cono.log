@@ -7,7 +7,7 @@ MEM=527MB      $
 MACH='Intel'
 OPER='Windows 10'
 OSV='6.1 7601'
-MODEL='Xeon/2858 (temis)'
+MODEL='Xeon/3205 (temis)'
 NPROC='8'
 CONFIG=6
 NPROC=8
@@ -15,8 +15,8 @@ symbol=DELDIR='c:/program files/msc.software/napa_se/20211/nastran/msc20211/nast
 symbol=DEMODIR='c:/program files/msc.software/napa_se/20211/nastran/msc20211/nast/demo' $(program default)
 symbol=SSSALTERDIR='c:/program files/msc.software/napa_se/20211/nastran/msc20211/nast/sssalter' $(program default)
 symbol=TPLDIR='c:/program files/msc.software/napa_se/20211/nastran/msc20211/nast/tpl' $(program default)
-SDIR='c:/scratch/cono.T2232_35'
-DBS='c:/scratch/cono.T2232_35'
+SDIR='c:/scratch/cono.T2408_7'
+DBS='c:/scratch/cono.T2408_7'
 SCR='yes'
 SMEM=100
 BPOOL=150
@@ -47,9 +47,9 @@ FPE:         yes
 -----------------------------------------------------------------  
 Current resource limits:
  Physical memory:                     9910 MB
- Physical memory available:           2887 MB
+ Physical memory available:           3465 MB
  Paging file size:                    9910 MB
- Paging file size available:          4933 MB
+ Paging file size available:          3491 MB
  Virtual memory:                 134217727 MB
  Virtual memory available:       134217727 MB
 -----------------------------------------------------------------  
@@ -57,8 +57,8 @@ System configuration:
  Hostname:         temis
  Architecture:     win64i8
  Platform:         Intel Windows 10 6.1 7601 (Windows Compute Cluster)
- Model:            Xeon/2577
- Clock freq.:      2574 MHz
+ Model:            Xeon/1515
+ Clock freq.:      1527 MHz
  Number of CPUs:   8
  Executable:       standard
  Raw model ID:     6
@@ -73,8 +73,8 @@ System configuration:
 MODE=I8 was specified, but not found.  Perhaps only the I4 version was installed 
 Resource information data not available.  
 -----------------------------------------------------------------  
-MSC Nastran started  Tue Nov 30 10:58:36 CEST 2021  
- 10:58:40  Beginning Analysis
+MSC Nastran started  Tue Nov 30 23:10:07 CEST 2021  
+ 23:10:11  Beginning Analysis
 SCA Kernel 25.0.764713 successfully initialized
 BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\20211\nastran\msc20211\win64i8\libimalloc.dll" has been loaded.
 BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\20211\nastran\msc20211\win64i8\mkl_core.dll" has been loaded.
@@ -82,23 +82,23 @@ BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\20211\nastran\msc20211\w
 BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\20211\nastran\msc20211\win64i8\mkl_rt.dll" has been loaded.
 BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\20211\nastran\msc20211\win64i8\MSCblas.dll" has been loaded.
 
- 10:58:40  MSC Authorization Information - Checkout Successful (1016, 0)
- 10:58:40  -------------------------------------------------------------
- 10:58:40  Acquired 1 license for Student Edition Nastran
+ 23:10:12  MSC Authorization Information - Checkout Successful (1016, 0)
+ 23:10:12  -------------------------------------------------------------
+ 23:10:12  Acquired 1 license for Student Edition Nastran
 
 
 Beginning bulk data processing using the IFPStar component.
 For more information on IFPStar, please see KB article KB8019200
 on our support pages, at http://simcompanion.mscsoftware.com.
 
- 10:58:41  16337 records read from JID file "C:\users\temis\Desktop\0_Andres\1_Universidad\MUSE\MUE\NASTRAN-PATRAN\Cono\CONO_Y_MESA\cono.bdf"
+ 23:10:13  18668 records read from JID file "C:\users\temis\Desktop\0_Andres\1_Universidad\MUSE\MUE\NASTRAN-PATRAN\Cono\CONO_Y_MESA\cono.bdf"
 
 Processing of bulk data entries is complete.
 
 
- 10:58:41  MSC Authorization Information - System Attributes (1004, 0)
- 10:58:41  -----------------------------------------------------------
-  Date:          Tue Nov 30 10:58:41 2021
+ 23:10:13  MSC Authorization Information - System Attributes (1004, 0)
+ 23:10:13  -----------------------------------------------------------
+  Date:          Tue Nov 30 23:10:13 2021
   LAPI Version:  LAPI 10.6.8 (CL 749681) (FLEXlm 11.16.3.0)
   License Mode:  Student Edition
 
@@ -106,41 +106,42 @@ Processing of bulk data entries is complete.
   * * * * * * * * * * * * * * * * * * * *
   * *                                 * *
   * *   MSC Customer Entitlement ID   * *
-  * *        03147c8e-G0B32DDA        * *
+  * *        03147c8e-G1756810        * *
   * *                                 * *
   * * * * * * * * * * * * * * * * * * * *
   * * * * * * * * * * * * * * * * * * * *
 
- 10:58:41  MSC Authorization Information - Checkout Successful (1016, 0)
- 10:58:41  -------------------------------------------------------------
- 10:58:41  Acquired 1 license for Student Edition Nastran Linear Contact
+ 23:10:13  MSC Authorization Information - Checkout Successful (1016, 0)
+ 23:10:13  -------------------------------------------------------------
+ 23:10:13  Acquired 1 license for Student Edition Nastran Linear Contact
 
- 10:58:41  Analysis started.
- 10:58:41  Geometry access/verification to CAD part initiated (if needed).
- 10:58:41  Geometry access/verification to CAD part successfully completed (if needed).
- 10:58:42  Finite element model generation started.
- 10:58:42  Finite element model generated 74178 degrees of freedom.
- 10:58:42  Finite element model generation successfully completed.
- 10:58:42  Application of Loads and Boundary Conditions to the finite element model started.
- 10:58:42  Application of Loads and Boundary Conditions to the finite element model successfully completed.
+ 23:10:13  Analysis started.
+ 23:10:13  Geometry access/verification to CAD part initiated (if needed).
+ 23:10:13  Geometry access/verification to CAD part successfully completed (if needed).
+ 23:10:14  Finite element model generation started.
+ 23:10:14  Finite element model generated 78984 degrees of freedom.
+ 23:10:14  Finite element model generation successfully completed.
+ 23:10:14  Application of Loads and Boundary Conditions to the finite element model started.
+ 23:10:14  Application of Loads and Boundary Conditions to the finite element model successfully completed.
 
- 10:58:42  MSC Authorization Information - Checkout Successful (1016, 0)
- 10:58:42  -------------------------------------------------------------
- 10:58:42  Acquired 1 license for Student Edition Nastran Nonlinear
+ 23:10:14  MSC Authorization Information - Checkout Successful (1016, 0)
+ 23:10:14  -------------------------------------------------------------
+ 23:10:14  Acquired 1 license for Student Edition Nastran Nonlinear
 
- 11:01:48  Linear static analysis completed.
  ================================================== 
  Warning/Fatal Message Summary           Occurrence
        USER WARNING MESSAGE      601.6          1 
        USER WARNING MESSAGE     8156.0          1 
        USER WARNING MESSAGE     9431.0          1 
-         USER FATAL MESSAGE     4551.3          1 
+       USER WARNING MESSAGE     8135.1        506 
+         USER FATAL MESSAGE     8135.2          1 
+         USER FATAL MESSAGE    4550.12          1 
+         USER FATAL MESSAGE     9058.4          1 
  ================================================== 
- 11:01:48  23 records read from JID file "C:\users\temis\Desktop\0_Andres\1_Universidad\MUSE\MUE\NASTRAN-PATRAN\Cono\CONO_Y_MESA\cono.bdf"
- 11:01:48  NSEXIT: EXIT(20)
- 11:01:48  Analysis complete  -20
-20
-Real:      189.146 seconds ( 0:03:09.146)
+ 23:24:11  23 records read from JID file "C:\users\temis\Desktop\0_Andres\1_Universidad\MUSE\MUE\NASTRAN-PATRAN\Cono\CONO_Y_MESA\cono.bdf"
+ 23:24:11  NSEXIT: EXIT(0)
+ 23:24:11  Analysis complete  0
+Real:      840.586 seconds ( 0:14:00.586)
 User:        0.000 seconds ( 0:00:00.000)
 Sys:         0.000 seconds ( 0:00:00.000)
  ==================================================
@@ -159,14 +160,14 @@ Sys:         0.000 seconds ( 0:00:00.000)
  Ram:                          9910 Mb
  ==================================================
  Time Summary                 CPU       Wall   ( Time in Seconds )
- Solver                     175.5        185 
- Miscellaneous                0.0          0 
+ Solver                     800.2        837 
+ Miscellaneous                1.6          2 
  -------------------------------------------
- Total:                       0.0          0 
+ Total:                     801.8        839 
  ==================================================
  Consider using SOLVE=AUTO if you have not.
  =====================================================
  Detailed performance information can be found in the 
  "MSC Nastran High Performance Computing User's Guide"
  =====================================================
-MSC Nastran finished Tue Nov 30 11:01:49 CEST 2021  
+MSC Nastran finished Tue Nov 30 23:24:12 CEST 2021  

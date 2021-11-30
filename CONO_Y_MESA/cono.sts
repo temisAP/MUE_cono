@@ -1,22 +1,15 @@
 information summary of job:  ./cono
 version: MSC Nastran 2021.1.0, Built on Mar 10, 2021
-date:     Nov 30, 2021; Day Time: 10:58:41
+date:     Nov 30, 2021; Day Time: 23:10:13
 
   subcase      inc  cycl  sepa cut     cycl   split   separ   cut  rmesh time step   total time  wall time   cpu time    max resp. type
   /step #       #     #    #    #        #        #      #      #     #      of          of
         1          |--of the inc--|-----------of the analysis-----------|  the inc      the job
-        0        0     0    0    0        0       0       0     0     0  0.0000E+00  0.0000E+00       2.00       1.40   0.0000E+00 disp
-        0        1     1   56    5       71       0      56     5     0  3.1250E-03  3.1250E-03      97.00      91.79  -1.1351E+01 disp
-        0        2     1   10    0       86       0      66     5     0  3.1250E-03  6.2500E-03     118.00     111.87   1.6260E+01 disp
-        0        3     1    7    0       97       0      73     5     0  3.1250E-03  9.3750E-03     137.00     129.17   2.4009E+01 disp
-        0        4     1    8    0      107       0      81     5     0  3.1250E-03  1.2500E-02     151.00     142.87  -3.5639E+01 disp
-        0        5     1    5    0      114       0      86     5     0  3.1250E-03  1.5625E-02     164.00     154.88   4.1753E+01 disp
-        0        6     1    3    0      119       0      89     5     0  3.1250E-03  1.8750E-02     173.00     163.80  -5.3622E+01 disp
-        0        7     1    1    0      122       0      90     5     0  3.1250E-03  2.1875E-02     179.00     169.71  -6.5803E+01 disp
-        0        8     2    1    0      126       0      91     5     0  3.1250E-03  2.5000E-02     187.00     176.79  -8.0557E+01 disp
- Job ends with exit number :       1
-            total wall time:        188.00
-            total cpu  time:        177.75
+        0        0     0    0    0        0       0       0     0     0  0.0000E+00  0.0000E+00       2.00       1.61   0.0000E+00 disp
+        0        1   253  581    2      588       0     581     2     0  2.5000E-02  2.5000E-02     837.00     800.22   6.6313E+01 disp
+ Job ends with exit number :       0
+            total wall time:        839.00
+            total cpu  time:        801.83
 
             exit DEFINITION -----
             = 0  job terminates normally
