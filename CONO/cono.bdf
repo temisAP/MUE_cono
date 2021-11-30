@@ -1,4 +1,4 @@
-$ MSC.Nastran input file created on November  30, 2021 at 11:38:30 by
+$ MSC.Nastran input file created on November  30, 2021 at 20:53:33 by
 $ Patran 2021.1  (Student Edition)
 $ Direct Text Input for Nastran System Cell Section
 $ Direct Text Input for File Management Section
@@ -371,7 +371,6 @@ PCOMP    2                       .089    HILL
          2       .183    90.     YES     2       .183    90.     YES
          2       .183    90.     YES     2       .183    90.     YES
          2       .183    90.     YES     2       .183    90.     YES
-         2       .183    90.     YES
 $ Pset: "Shell_helicoidales" will be imported as: "pcomp.2"
 CQUAD4   697     2       56      1416    1418    5756
 CQUAD4   698     2       5756    1418    1420    5754
@@ -1662,7 +1661,7 @@ PCOMP    3                       .089    HILL
          2       .183    90.     YES     2       .183    90.     YES
          2       .183    90.     YES     2       .183    90.     YES
          2       .183    90.     YES     2       .183    90.     YES
-         2       .183    90.     YES
+         2       .183    90.     YES     2       .183    90.     YES
 $ Pset: "Shell_verticales" will be imported as: "pcomp.3"
 CQUAD4   1977    3       4007    4008    4010    4009
 CQUAD4   1978    3       4009    4010    4012    4011
@@ -2824,7 +2823,7 @@ PCOMP    4                       .089    HILL
          1       .183    0.      YES     1       .183    0.      YES
          1       .183    0.      YES     1       .183    0.      YES
          1       .183    0.      YES     1       .183    0.      YES
-         1       .183    0.      YES
+         1       .183    0.      YES     1       .183    0.      YES
 $ Pset: "Shell_anillos_interiores" will be imported as: "pcomp.4"
 CQUAD4   278     4       564     565     599     598
 CQUAD4   279     4       565     566     600     599
@@ -15898,4 +15897,4 @@ BSURF    10      1977    1978    1979    1980    1981    1982    1983
 $ Nodal Forces of Load Set : Fuerza
 FORCE    1       563     0       15.     0.      0.      -1.
 $ Referenced Coordinate Frames
-ENDDATA 4109d718
+ENDDATA f27b28c9
