@@ -1,0 +1,173 @@
+MSC Nastran V2021.1 (Intel Windows 10 6.1 7601) Control File:  
+-----------------------------------------------------------------  
+Nastran BUFFSIZE=8193 $(c:/program files/msc.software/napa_se/20211/nastran/conf/nast20211.rcf[2])
+JID='C:\users\temis\Desktop\0_Andres\1_Universidad\MUSE\MUE\NASTRAN-PATRAN\Cono\CONO_Y_MESA\cono.bdf'
+OUT='./cono'
+MEM=527MB      $ 
+MACH='Intel'
+OPER='Windows 10'
+OSV='6.1 7601'
+MODEL='Xeon/3216 (temis)'
+NPROC='8'
+CONFIG=6
+NPROC=8
+symbol=DELDIR='c:/program files/msc.software/napa_se/20211/nastran/msc20211/nast/del' $(program default)
+symbol=DEMODIR='c:/program files/msc.software/napa_se/20211/nastran/msc20211/nast/demo' $(program default)
+symbol=SSSALTERDIR='c:/program files/msc.software/napa_se/20211/nastran/msc20211/nast/sssalter' $(program default)
+symbol=TPLDIR='c:/program files/msc.software/napa_se/20211/nastran/msc20211/nast/tpl' $(program default)
+SDIR='c:/scratch/cono.T2988_16'
+DBS='c:/scratch/cono.T2988_16'
+SCR='yes'
+SMEM=100
+BPOOL=150
+DMPMEM=0
+NEWDEL='c:/program files/msc.software/napa_se/20211/nastran/msc20211/win64i8/SSS'
+DEL='MSCDEF'
+DML=MSCDEF
+SDL=MSCDEF
+AUTH='edu'
+AUTHQUE=20
+MSGCAT='c:/program files/msc.software/napa_se/20211/nastran/msc20211/win64i8/analysis.msg'
+MSGDEST='f06'
+PROG=edu
+NEWS='c:/program files/msc.software/napa_se/20211/nastran/msc20211/nast/news.txt'
+-----------------------------------------------------------------  
+MSC_ISHELLPATH=c:\users\temis\desktop\0_andres\1_universidad\muse\mue\nastran-patran\cono\cono_y_mesa  
+MSC_JIDPATH=  
+PATH=c:\program files\msc.software\napa_se\20211\nastran\msc20211\win64i8\nCode\bin;c:\program files\msc.software\napa_se\20211\nastran\msc20211\win64i8\nvidia;c:\program files\msc.software\napa_se\20211\nastran\msc20211\win64i8\lib;c:\program files\msc.software\napa_se\20211\nastran\msc20211\win64i8;C:\Program Files\MSC.Software\NaPa_SE\20211\Patran\bin;C:\Program Files\MSC.Software\NaPa_SE\20211\Patran\bin\exe;C:\Program Files\MSC.Software\NaPa_SE\20211\Patran\Perl_msc\bin;C:\Program Files\MSC.Software\NaPa_SE\20211\Patran\scasystem_files;C:\Program Files\MSC.Software\NaPa_SE\20211\Patran\bin;C:\Program Files\MSC.Software\NaPa_SE\20211\Patran\bin\exe;C:\Program Files\MSC.Software\NaPa_SE\20211\Patran\Perl_msc\bin;C:\Program Files\MSC.Software\NaPa_SE\20211\Patran\scasystem_files;C:\Program Files\MSC.Software\NaPa_SE\20211\Patran\bin;C:\windows\system32;C:\windows;C:\windows\system32\wbem;C:\windows\system32\WindowsPowershell\v1.0;;  
+SCA_SERVICE_CATALOG=c:\program files\msc.software\napa_se\20211\nastran\msc20211\res\SCAServiceCatalog.xml  
+SCA_RESOURCE_DIR=c:\program files\msc.software\napa_se\20211\nastran\msc20211\res  
+Cmd Line:    C:\Program Files\MSC.Software\NaPa_SE\20211\Nastran\msc20211\win64i8\nastran.exe cono.bdf prog=edu auth=edu bat=no  
+Current Dir: C:\users\temis\Desktop\0_Andres\1_Universidad\MUSE\MUE\NASTRAN-PATRAN\Cono\CONO_Y_MESA  
+Time Cmd:    c:\program files\msc.software\napa_se\20211\nastran\msc20211\win64i8\msctime  
+Executable:  c:\program files\msc.software\napa_se\20211\nastran\msc20211\win64i8\analysis.exe  
+Arch= Kywd:  64   
+MSC_MSG:     stderr   
+FPE:         yes   
+-----------------------------------------------------------------  
+Current resource limits:
+ Physical memory:                     9910 MB
+ Physical memory available:           3098 MB
+ Paging file size:                    9910 MB
+ Paging file size available:          4360 MB
+ Virtual memory:                 134217727 MB
+ Virtual memory available:       134217727 MB
+-----------------------------------------------------------------  
+System configuration:
+ Hostname:         temis
+ Architecture:     win64i8
+ Platform:         Intel Windows 10 6.1 7601 (Windows Compute Cluster)
+ Model:            Xeon/2694
+ Clock freq.:      2686 MHz
+ Number of CPUs:   8
+ Executable:       standard
+ Raw model ID:     6
+ Config number:    6
+ Physical memory:  9910 MB
+ Virtual memory:   9910 MB
+ Numeric format:   64-bit little-endian IEEE.
+ Bytes per word:   8
+ Disk block size:  512 bytes (64 words)
+ Remote shell cmd: "c:/program files/msc.software/napa_se/20211/nastran/msc20211/win64i8/mscrmtcmd.exe" (Windows non-CCS nodes, UNIX)
+                   <ccs_cmd> (Windows CCS nodes)
+MODE=I8 was specified, but not found.  Perhaps only the I4 version was installed 
+Resource information data not available.  
+-----------------------------------------------------------------  
+MSC Nastran started  Tue Nov 30 01:54:16 CEST 2021  
+ 01:54:19  Beginning Analysis
+SCA Kernel 25.0.764713 successfully initialized
+BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\20211\nastran\msc20211\win64i8\libimalloc.dll" has been loaded.
+BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\20211\nastran\msc20211\win64i8\mkl_core.dll" has been loaded.
+BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\20211\nastran\msc20211\win64i8\mkl_intel_thread.dll" has been loaded.
+BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\20211\nastran\msc20211\win64i8\mkl_rt.dll" has been loaded.
+BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\20211\nastran\msc20211\win64i8\MSCblas.dll" has been loaded.
+
+ 01:54:20  MSC Authorization Information - Checkout Successful (1016, 0)
+ 01:54:20  -------------------------------------------------------------
+ 01:54:20  Acquired 1 license for Student Edition Nastran
+
+
+Beginning bulk data processing using the IFPStar component.
+For more information on IFPStar, please see KB article KB8019200
+on our support pages, at http://simcompanion.mscsoftware.com.
+
+ 01:54:20  16019 records read from JID file "C:\users\temis\Desktop\0_Andres\1_Universidad\MUSE\MUE\NASTRAN-PATRAN\Cono\CONO_Y_MESA\cono.bdf"
+
+Processing of bulk data entries is complete.
+
+
+ 01:54:20  MSC Authorization Information - System Attributes (1004, 0)
+ 01:54:20  -----------------------------------------------------------
+  Date:          Tue Nov 30 01:54:20 2021
+  LAPI Version:  LAPI 10.6.8 (CL 749681) (FLEXlm 11.16.3.0)
+  License Mode:  Student Edition
+
+  * * * * * * * * * * * * * * * * * * * *
+  * * * * * * * * * * * * * * * * * * * *
+  * *                                 * *
+  * *   MSC Customer Entitlement ID   * *
+  * *        03147c8e-GBC56086        * *
+  * *                                 * *
+  * * * * * * * * * * * * * * * * * * * *
+  * * * * * * * * * * * * * * * * * * * *
+
+ 01:54:20  MSC Authorization Information - Checkout Successful (1016, 0)
+ 01:54:20  -------------------------------------------------------------
+ 01:54:20  Acquired 1 license for Student Edition Nastran Linear Contact
+
+ 01:54:20  Analysis started.
+ 01:54:20  Geometry access/verification to CAD part initiated (if needed).
+ 01:54:20  Geometry access/verification to CAD part successfully completed (if needed).
+ 01:54:20  Finite element model generation started.
+ 01:54:21  Finite element model generated 73512 degrees of freedom.
+ 01:54:21  Finite element model generation successfully completed.
+ 01:54:21  Application of Loads and Boundary Conditions to the finite element model started.
+ 01:54:21  Application of Loads and Boundary Conditions to the finite element model successfully completed.
+
+ 01:54:21  MSC Authorization Information - Checkout Successful (1016, 0)
+ 01:54:21  -------------------------------------------------------------
+ 01:54:21  Acquired 1 license for Student Edition Nastran Nonlinear
+
+ ================================================== 
+ Warning/Fatal Message Summary           Occurrence
+       USER WARNING MESSAGE      601.6          1 
+       USER WARNING MESSAGE     8156.0          1 
+       USER WARNING MESSAGE     9431.0          1 
+       USER WARNING MESSAGE     8135.1        225 
+         USER FATAL MESSAGE     8135.2          1 
+         USER FATAL MESSAGE    4550.12          1 
+         USER FATAL MESSAGE     9058.4          1 
+ ================================================== 
+ 02:00:29  23 records read from JID file "C:\users\temis\Desktop\0_Andres\1_Universidad\MUSE\MUE\NASTRAN-PATRAN\Cono\CONO_Y_MESA\cono.bdf"
+ 02:00:29  NSEXIT: EXIT(0)
+ 02:00:29  Analysis complete  0
+Real:      370.193 seconds ( 0:06:10.193)
+User:        0.000 seconds ( 0:00:00.000)
+Sys:         0.000 seconds ( 0:00:00.000)
+ ==================================================
+ OS:                           6.1
+ OEM ID:                       9
+ Model:                         Number of processors:         8
+ Page size:                    4096
+ Processor type:               8664
+ Minimum application address:  10000
+ Maximum application address:  fffeffff
+ Active processor mask:        255
+ 
+ Nsocket:                      -2
+ Ncore:                        0  ( -2 X 0 )
+ HyperThreading:               Off
+ Ram:                          9910 Mb
+ ==================================================
+ Time Summary                 CPU       Wall   ( Time in Seconds )
+ Solver                     352.1        368 
+ Miscellaneous                1.4          1 
+ -------------------------------------------
+ Total:                     353.5        369 
+ ==================================================
+ Consider using SOLVE=AUTO if you have not.
+ =====================================================
+ Detailed performance information can be found in the 
+ "MSC Nastran High Performance Computing User's Guide"
+ =====================================================
+MSC Nastran finished Tue Nov 30 02:00:30 CEST 2021  
