@@ -1,4 +1,4 @@
-$ MSC.Nastran input file created on November  30, 2021 at 00:54:50 by
+$ MSC.Nastran input file created on November  30, 2021 at 11:38:30 by
 $ Patran 2021.1  (Student Edition)
 $ Direct Text Input for Nastran System Cell Section
 $ Direct Text Input for File Management Section
@@ -43,21 +43,36 @@ BCONECT  8012    3012            5       3
 BCONECT  8013    3013            4       4
 BCONECT  8014    3014            5       4
 BCONECT  8015    3015            5       5
-BCONPRG  3001            ERROR   5.      IGLUE   3       ISEARCH 2
-BCONPRG  3002            ERROR   5.      IGLUE   3       ISEARCH 2
-BCONPRG  3003            ERROR   5.      IGLUE   3       ISEARCH 2
-BCONPRG  3004            ERROR   5.      IGLUE   3       ISEARCH 2
-BCONPRG  3005            ERROR   5.      IGLUE   3       ISEARCH 2
-BCONPRG  3006            ERROR   5.      IGLUE   3       ISEARCH 2
-BCONPRG  3007            ERROR   5.      IGLUE   3       ISEARCH 2
-BCONPRG  3008            ERROR   5.      IGLUE   3       ISEARCH 2
-BCONPRG  3009            ERROR   5.      IGLUE   3       ISEARCH 2
-BCONPRG  3010            ERROR   5.      IGLUE   3       ISEARCH 2
-BCONPRG  3011            ERROR   5.      IGLUE   3       ISEARCH 2
-BCONPRG  3012            ERROR   5.      IGLUE   3       ISEARCH 2
-BCONPRG  3013            ERROR   5.      IGLUE   3       ISEARCH 2
-BCONPRG  3014            ERROR   5.      IGLUE   3       ISEARCH 2
-BCONPRG  3015            ERROR   5.      IGLUE   3       ISEARCH 2
+BCONPRG  3001            ERROR   5.      IGLUE   4       ISEARCH 2
+         PENALT  1.
+BCONPRG  3002            ERROR   5.      IGLUE   4       ISEARCH 2
+         PENALT  1.
+BCONPRG  3003            ERROR   5.      IGLUE   4       ISEARCH 2
+         PENALT  1.
+BCONPRG  3004            ERROR   5.      IGLUE   4       ISEARCH 2
+         PENALT  1.
+BCONPRG  3005            ERROR   5.      IGLUE   4       ISEARCH 2
+         PENALT  1.
+BCONPRG  3006            ERROR   5.      IGLUE   4       ISEARCH 2
+         PENALT  1.
+BCONPRG  3007            ERROR   5.      IGLUE   4       ISEARCH 2
+         PENALT  1.
+BCONPRG  3008            ERROR   5.      IGLUE   4       ISEARCH 2
+         PENALT  1.
+BCONPRG  3009            ERROR   5.      IGLUE   4       ISEARCH 2
+         PENALT  1.
+BCONPRG  3010            ERROR   5.      IGLUE   4       ISEARCH 2
+         PENALT  1.
+BCONPRG  3011            ERROR   5.      IGLUE   4       ISEARCH 2
+         PENALT  1.
+BCONPRG  3012            ERROR   5.      IGLUE   4       ISEARCH 2
+         PENALT  1.
+BCONPRG  3013            ERROR   5.      IGLUE   4       ISEARCH 2
+         PENALT  1.
+BCONPRG  3014            ERROR   5.      IGLUE   4       ISEARCH 2
+         PENALT  1.
+BCONPRG  3015            ERROR   5.      IGLUE   4       ISEARCH 2
+         PENALT  1.
 BCTABL1  1       8001    8002    8003    8004    8005    8006    8007
          8008    8009    8010    8011    8012    8013    8014    8015
 $ Elements and Element Properties for region : Shell_anillos_exteriores
@@ -15883,4 +15898,4 @@ BSURF    10      1977    1978    1979    1980    1981    1982    1983
 $ Nodal Forces of Load Set : Fuerza
 FORCE    1       563     0       15.     0.      0.      -1.
 $ Referenced Coordinate Frames
-ENDDATA 934dcb16
+ENDDATA 4109d718
